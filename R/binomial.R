@@ -7,7 +7,7 @@
 #' @return the binomial P-values between non-zero/missing values in each pair of
 #'   columns
 #'
-#' @importFrom stan as.simple_triplet_matrix crossprod_simple_triplet_matrix
+#' @importFrom slam as.simple_triplet_matrix crossprod_simple_triplet_matrix
 #' @importFrom Matrix rowMeans rowSums
 #' @export
 binomial = function(mat) {
